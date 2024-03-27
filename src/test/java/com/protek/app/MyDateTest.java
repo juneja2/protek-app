@@ -1,4 +1,4 @@
-package com.protek.app.challenge1;
+package com.protek.app;
 
 import org.junit.jupiter.api.Test;
 

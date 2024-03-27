@@ -1,4 +1,4 @@
-package com.protek.app.challenge1;
+package com.protek.app;
 
 public class MyDate {
     private int year;

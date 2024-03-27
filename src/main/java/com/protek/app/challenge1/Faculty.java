@@ -1,5 +1,7 @@
 package com.protek.app.challenge1;
 
+import com.protek.app.MyDate;
+
 import java.util.List;
 
 public class Faculty extends Employee {

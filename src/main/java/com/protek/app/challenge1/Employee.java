@@ -1,5 +1,7 @@
 package com.protek.app.challenge1;
 
+import com.protek.app.MyDate;
+
 public class Employee extends Person {
     private String office;
     private double salary;
