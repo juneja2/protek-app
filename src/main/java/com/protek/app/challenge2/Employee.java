@@ -41,7 +41,7 @@ public class Employee {
     }
 
     private void validateNumber(final String employeeNumber) {
-        final Pattern pattern = Pattern.compile("\\d{3}-[A-M]", Pattern.CASE_INSENSITIVE);
+        final Pattern pattern = Pattern.compile("\\d{3}-[A-M]");
         final Matcher matcher = pattern.matcher(employeeNumber);
         final boolean matchFound = matcher.find();
         if (!matchFound) {
